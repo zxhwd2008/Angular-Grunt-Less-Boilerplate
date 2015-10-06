@@ -1,0 +1,16 @@
+{
+  "name": "Angular-boilerplate",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    "Xiaohang Zou"
+  ],
+  "dependencies": {
+    "angular": "~1.4",
+    "angular-loading-bar": "^0.6.0",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4",
+    "underscore": "^1.8.3"
+  }
+}
