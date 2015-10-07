@@ -20,14 +20,12 @@
         $stateProvider
             .state('main', {
                 url: '/',
-                templateUrl: 'app/main.index.html'
+                templateUrl: 'app/main.html'
+            })
+            .state('main.about', {
+                url: '/about',
+                templateUrl: 'app/about/about.html'
             });
-            //.state('main.about', {
-            //    url: '/about',
-            //    controller: 'About',
-            //    controllerAs: 'about',
-            //    templateUrl: 'app/blog.index.html'
-            //});
         $urlRouterProvider.otherwise('/');
 
     }

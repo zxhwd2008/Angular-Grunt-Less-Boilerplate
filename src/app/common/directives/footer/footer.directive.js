@@ -1,4 +1,4 @@
-(function(){
+(function (){
     'use strict';
 
     angular.module('common').directive('appFooter', appFooter);

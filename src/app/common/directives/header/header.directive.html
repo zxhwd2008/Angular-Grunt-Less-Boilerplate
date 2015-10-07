@@ -4,6 +4,16 @@
             <a href="" class="navbar-brand"><span class="brand-title">Angular Boilerplate</span></a>
         </div>
         <div class="navbar-collapse collapse">
+            <div>
+                <ul class="nav navbar-nav">
+                    <li data-ng-repeat="navTab in header.navTabs"
+                        data-ng-class="{'active': navTab.selected()}">
+                        <a ui-sref="{{navTab.redirect}}">
+                            {{navTab.name}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <div class="pull-right">
                 <ul class="nav navbar-nav pull-right">
                     <li>
