@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html data-ng-app="app">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <style>
+        /* This helps the ng-show/ng-hide animations start at the right place. */
+        /* Since Angular has this but needs to load, this gives us the class early. */
+        .ng-hide {
+            display: none!important;
+        }
+    </style>
+    <title>Angular Boilerplate</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+
+    <link href="lib/angular-loading-bar/build/loading-bar.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+
+</head>
+<body>
+<div ui-view></div>
+
+
+<!-- build:script bundle -->
+<!-- Vendor Scripts -->
+<script src="lib/jquery/dist/jquery.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="lib/angular-loading-bar/build/loading-bar.js"></script>
+<script src="lib/underscore/underscore.js"></script>
+<!-- /build -->
+
+<!-- build:script app -->
+<!-- Bootstrapping -->
+<script src="app/app.js"></script>
+
+<!-- common Directives -->
+<script src="app/common/directives/header/header.directive.js"></script>
+<script src="app/common/directives/footer/footer.directive.js"></script>
+
+<!-- common Modules -->
+<script src="app/common/underscore/underscore.factory.js"></script>
+
+<!-- common.bootstrap Modules -->
+
+<!-- app -->
+
+
+<!-- app Services -->
+
+<!-- /build -->
+
+</body>
+</html>
