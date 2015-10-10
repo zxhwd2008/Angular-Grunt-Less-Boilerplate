@@ -2,7 +2,7 @@
 Simple AngularJS Boilerplate to kick start your new project with LESS support and Grunt watch/build tasks
 
 # Features
-* clear folder structure
+* Clear folder structure
 * Integrate with Bootstrap
 * Integrate with JSHint
 * Less support
