@@ -6,7 +6,8 @@ module.exports = {
     lib: 'src/lib',
     src: 'src/app',
     common: 'src/app/common',
-    dest: 'build',
     style: 'src/styles',
-    destApp: 'Build/app'
+    dest: 'build',
+    destApp: 'build/src/app',
+    destStyles: 'build/src/styles'
 };

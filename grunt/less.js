@@ -8,7 +8,7 @@ module.exports = {
             }
         },
         files: {
-            "<%= globalConfig.dest %>/styles/main.css": "<%= globalConfig.style %>/main.less"
+            "<%= globalConfig.destStyles %>/main.css": "<%= globalConfig.style %>/main.less"
         }
     },
     development: {

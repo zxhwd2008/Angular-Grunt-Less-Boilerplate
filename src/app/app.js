@@ -5,7 +5,6 @@
         // Angular modules
         'ui.router',              // routing
         'ui.bootstrap',           // angular ui bootstrap
-        'angular-loading-bar',    // angular loading bar
 
         // Custom modules
         'common'                  // common functions, logger, spinner
