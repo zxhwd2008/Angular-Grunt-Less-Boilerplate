@@ -10,14 +10,14 @@ Simple AngularJS Boilerplate to kick start your new project with LESS support an
 * Grunt build tasks including concat, minify, uglify CSS and JS files
 
 ## 1. Setup
-```bash
-npm install
+```sh
+$ git clone https://github.com/zxhwd2008/Angular-Boilerplate.git
+$ cd angular-boilerplate
+$ npm install
+$ bower install
 ```
-install all npm dependencies
-```bash
-bower install
-```
-install all bower dependencies
+
+Finally, open `file:///path/to/angular-boilerplate/src/index.html` in your browser.
 
 ## 2. Watch Less files
 ```bash
