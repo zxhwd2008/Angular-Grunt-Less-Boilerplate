@@ -13,23 +13,24 @@ Simple AngularJS Boilerplate to kick start your new project with LESS support an
 ```bash
 npm install
 ```
-- install all npm dependencies
+install all npm dependencies
 ```bash
 bower install
 ```
-- install all bower dependencies
+install all bower dependencies
 
 ## 2. Watch Less files
 ```bash
 grunt compileLess
 ```
-- Compile your Less files automatically
+Compile your Less files automatically
 
 ## 3. Build production version
 ```bash
 grunt build
 ```
-- this will process following tasks:
+
+this will process following tasks:
 * clean build folder
 * run JSHint
 * adds and removes AngularJS dependency injection annotations
