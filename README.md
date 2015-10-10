@@ -7,6 +7,7 @@ Simple AngularJS Boilerplate to kick start your new project with LESS support an
 * Integrate with JSHint
 * Less support
 * Automatically compile less files
+* Separate concerns of Grunt tasks
 * Grunt build tasks including concat, minify, uglify CSS and JS files
 
 ## 1. Setup
