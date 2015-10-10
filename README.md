@@ -12,7 +12,7 @@ Simple AngularJS Boilerplate to kick start your new project with LESS support an
 ## 1. Setup
 ```sh
 $ git clone https://github.com/zxhwd2008/Angular-Boilerplate.git
-$ cd angular-boilerplate
+$ cd Angular-Boilerplate
 $ npm install
 $ bower install
 ```
