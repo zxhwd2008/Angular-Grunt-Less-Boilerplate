@@ -5,5 +5,14 @@ module.exports = {
         options: {
             spawn: false
         }
+    },
+    livereload: {
+      options: {
+        livereload: '<%= connect.livereload.options.livereload %>'
+      },
+      files: [
+        '<%= globalConfig.src %>/{,*/}*.html',
+        '<%= globalConfig.style %>/{,*/}*.css'
+      ]
     }
 };

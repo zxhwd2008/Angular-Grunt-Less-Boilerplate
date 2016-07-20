@@ -20,9 +20,9 @@ $ bower install
 
 Finally, open `file:///path/to/angular-boilerplate/src/index.html` in your browser.
 
-## 2. Watch Less files
+## 2. Run local server
 ```bash
-grunt compileLess
+grunt server
 ```
 Compile your Less files automatically
 
@@ -40,4 +40,3 @@ this will process following tasks:
 * minify all CSS files
 * concat and minify all JS files
 * build index.html
-

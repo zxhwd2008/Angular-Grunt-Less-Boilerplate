@@ -1,20 +1,28 @@
 module.exports = {
-    'compileLess': [
-        'watch:styles'
-    ],
-    'build': [
-        'clean:dist',
-        'jshint',
-        //'karma:local',
-        'ngAnnotate',
-        'less:production',
-        'autoprefixer',
-        'cssmin',
-        'concat:libs',
-        'concat:app',
-        'uglify',
-        'clean:middleBuild',
-        'copy',
-        'htmlbuild'
-    ]
+  'server': [
+    'env:dev',
+    'preprocess:development',
+    'less:development',
+    'autoprefixer:development',
+    'jshint',
+    'connect:livereload',
+    'watch'
+  ],
+  'build': [
+    'clean:dist',
+    'jshint',
+    //'karma:local',
+    'ngAnnotate',
+    'less:production',
+    'autoprefixer:production',
+    'cssmin',
+    'concat:libs',
+    'concat:app',
+    'env:prod',
+    'preprocess:production',
+    'uglify',
+    'clean:middleBuild',
+    'copy',
+    'htmlbuild'
+  ]
 };

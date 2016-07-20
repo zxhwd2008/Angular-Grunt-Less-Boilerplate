@@ -3,6 +3,7 @@ module.exports = {
     buildNumber: Date.now().toString(),
     buildDate: (new Date()).toLocaleString(),
     pkgname: 'AngularBoilerplate',
+    dev: 'src',
     lib: 'src/lib',
     src: 'src/app',
     common: 'src/app/common',
