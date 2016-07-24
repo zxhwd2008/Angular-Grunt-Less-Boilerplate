@@ -7,13 +7,13 @@ module.exports = {
   },
   production : {
     src: [
-      '<%= globalConfig.dest %>/index.html',
-      '<%= globalConfig.dest %>/{,*/}app.js'
+      '<%= project.dest %>/index.html',
+      '<%= project.dest %>/{,*/}app.js'
     ]
   },
   development: {
     src: [
-      '<%= globalConfig.dev %>/index.html'
+      '<%= project.src %>/index.html'
     ]
   }
 };

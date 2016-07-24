@@ -4,11 +4,11 @@ module.exports = {
             {
                 expand: true,
                 src: [
-                    '<%= globalConfig.src %>/**',
-                    '!<%= globalConfig.src %>/**/*.js',
-                    '!<%= globalConfig.src %>/*.js'
+                    '<%= project.app %>/**',
+                    '!<%= project.app %>/**/*.js',
+                    '!<%= project.app %>/*.js'
                 ],
-                dest: '<%= globalConfig.dest %>/',
+                dest: '<%= project.dest %>/',
                 filter: 'isFile'
             }
         ]
@@ -18,11 +18,11 @@ module.exports = {
             {
                 expand: true,
                 src: [
-                    '<%= globalConfig.lib %>/**',
-                    '!<%= globalConfig.lib %>/**/*.js',
-                    '!<%= globalConfig.lib %>/*.js'
+                    '<%= project.lib %>/**',
+                    '!<%= project.lib %>/**/*.js',
+                    '!<%= project.lib %>/*.js'
                 ],
-                dest: '<%= globalConfig.dest %>/',
+                dest: '<%= project.dest %>/',
                 filter: 'isFile'
             }
         ]

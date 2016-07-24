@@ -1,14 +1,14 @@
 module.exports = {
     'app': {
         src: 'src/index.html',
-        dest: '<%= globalConfig.dest %>/src/',
+        dest: '<%= project.dest %>/src/',
         options: {
             scripts: {
                 bundle: [
-                    '<%= globalConfig.destApp %>/<%= globalConfig.pkgname %>-<%= globalConfig.timestamp %>.libs.min.js'
+                    '<%= project.destApp %>/<%= project.pkgname %>-<%= project.timestamp %>.libs.min.js'
                 ],
                 app: [
-                    '<%= globalConfig.destApp %>/<%= globalConfig.pkgname %>-<%= globalConfig.timestamp %>.app.min.js'
+                    '<%= project.destApp %>/<%= project.pkgname %>-<%= project.timestamp %>.app.min.js'
                 ]
             }
         }

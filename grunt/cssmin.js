@@ -1,10 +1,10 @@
 module.exports = {
     dist: {
         options: {
-            banner: '/*! <%= globalConfig.pkgname %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+            banner: '/*! <%= project.pkgname %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
         },
         files: {
-            '<%= globalConfig.destStyles %>/main.css': '<%= globalConfig.destStyles %>/main.prefixed.css'
+            '<%= project.destStyles %>/main.css': '<%= project.destStyles %>/main.prefixed.css'
         }
     }
 };

@@ -9,6 +9,8 @@ Simple AngularJS Boilerplate to kick start your new project with LESS support an
 * Automatically compile less files
 * Separate concerns of Grunt tasks
 * Grunt build tasks including concat, minify, uglify CSS and JS files
+* Live reload
+* Automatically checks JsHint
 
 ## 1. Setup
 ```sh
@@ -24,7 +26,7 @@ Finally, open `file:///path/to/angular-boilerplate/src/index.html` in your brows
 ```bash
 grunt server
 ```
-Compile your Less files automatically
+Compile your Less files, check JsHint and live reload automatically
 
 ## 3. Build production version
 ```bash

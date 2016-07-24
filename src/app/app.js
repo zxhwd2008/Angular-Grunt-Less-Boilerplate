@@ -26,6 +26,5 @@
                 templateUrl: 'app/about/about.html'
             });
         $urlRouterProvider.otherwise('/');
-
     }
 }());

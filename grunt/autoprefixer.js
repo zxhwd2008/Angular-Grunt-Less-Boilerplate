@@ -4,7 +4,7 @@ module.exports = {
             browsers: ['last 2 versions', 'ie 8', 'ie 9']
         },
         files: {
-            "<%= globalConfig.style %>/main.css": "<%= globalConfig.style %>/main.css"
+            "<%= project.style %>/main.css": "<%= project.style %>/main.css"
         }
     },
     production: {
@@ -12,7 +12,7 @@ module.exports = {
             browsers: ['last 2 versions', 'ie 8', 'ie 9']
         },
         files: {
-            "<%= globalConfig.destStyles %>/main.prefixed.css": "<%= globalConfig.destStyles %>/main.css"
+            "<%= project.destStyles %>/main.prefixed.css": "<%= project.destStyles %>/main.css"
         }
     }
 };

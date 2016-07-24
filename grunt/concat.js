@@ -3,22 +3,22 @@ module.exports = {
     // All these libraries are supplied by vendors
     libs: {
         src: [
-            '<%= globalConfig.lib %>/jquery/dist/jquery.js',
-            '<%= globalConfig.lib %>/bootstrap/dist/js/bootstrap.js',
-            '<%= globalConfig.lib %>/angular/angular.js',
-            '<%= globalConfig.lib %>/angular-ui-router/release/angular-ui-router.js',
-            '<%= globalConfig.lib %>/angular-bootstrap/ui-bootstrap-tpls.js',
-            '<%= globalConfig.lib %>/underscore/underscore.js'
+            '<%= project.lib %>/jquery/dist/jquery.js',
+            '<%= project.lib %>/bootstrap/dist/js/bootstrap.js',
+            '<%= project.lib %>/angular/angular.js',
+            '<%= project.lib %>/angular-ui-router/release/angular-ui-router.js',
+            '<%= project.lib %>/angular-bootstrap/ui-bootstrap-tpls.js',
+            '<%= project.lib %>/underscore/underscore.js'
         ],
-        dest: '<%= globalConfig.dest %>/<%= globalConfig.pkgname %>.libs.js'
+        dest: '<%= project.dest %>/<%= project.pkgname %>.libs.js'
     },
 
     // The app
     app: {
         src: [
-            '<%= globalConfig.src %>/app.js',
-            '<%= globalConfig.src %>/**/*.js'
+            '<%= project.app %>/app.js',
+            '<%= project.app %>/**/*.js'
         ],
-        dest: '<%= globalConfig.dest %>/<%= globalConfig.pkgname %>.app.js'
+        dest: '<%= project.dest %>/<%= project.pkgname %>.app.js'
     }
 };

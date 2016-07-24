@@ -4,11 +4,11 @@ module.exports = {
             cleancss: true,
             ieCompat: true, // ie 8 compatibility
             modifyVars: {
-                'build-date': '"<%= globalConfig.buildDate %>"'
+                'build-date': '"<%= project.buildDate %>"'
             }
         },
         files: {
-            "<%= globalConfig.destStyles %>/main.css": "<%= globalConfig.style %>/main.less"
+            "<%= project.destStyles %>/main.css": "<%= project.style %>/main.less"
         }
     },
     development: {
@@ -17,7 +17,7 @@ module.exports = {
             ieCompat: true // ie 8 compatibility
         },
         files: {
-            "<%= globalConfig.style %>/main.css": "<%= globalConfig.style %>/main.less"
+            "<%= project.style %>/main.css": "<%= project.style %>/main.less"
         }
     }
 };

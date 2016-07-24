@@ -1,9 +1,9 @@
 module.exports = {
     dist: [
-        '<%= globalConfig.dest %>'
+        '<%= project.dest %>'
     ],
     middleBuild: [
-        '<%= globalConfig.dest %>/*.js',
-        '!<%= globalConfig.dest %>/*.min.js'
+        '<%= project.dest %>/*.js',
+        '!<%= project.dest %>/*.min.js'
     ]
 };

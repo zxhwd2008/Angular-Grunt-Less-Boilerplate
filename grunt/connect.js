@@ -6,7 +6,7 @@ module.exports = {
       livereload: 35729,
       open: true,
       base: [
-        '<%= globalConfig.dev %>'
+        '<%= project.src %>'
       ]
     }
   }
